@@ -8,7 +8,7 @@ Depending on wiring-pi library (http://wiringpi.com)
 npm install wiring-pi
 ```
 
-#Example
+## Example
 ```
 var Livolo = require('livolo.js');
 
@@ -18,7 +18,7 @@ Livolo.open(1); // transmitter pin number
 Livolo.sendButton(6400, 120);
 ```
 
-#Signal and key codes
+## Signal and key codes
 
 sendButton function uses to arguments: remote ID and keycode. Typically, remote IDs are 16 bit unsigned values, but
 not all of them are valid (maybe there are some IDs reserved only for system use or there is something I don't know).
